@@ -6,8 +6,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   form.addEventListener('submit', (e) => {
     e.preventDefault();
-    // Aqui você pode integrar chamada real a API da Serasa,
-    // por enquanto exibimos sempre "Nome negativado".
     resultText.textContent = 'Nome negativado';
     form.hidden = true;
     resultDiv.hidden = false;
