@@ -3,15 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Serasa Limpa Nome em 7 Dias</title>
+  <title>Limpa Nome - 7 Dias</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="header">
-    <!-- Substitua 'logo-serasa.png' pelo logo oficial -->
-    <img src="logo-serasa.png" alt="Serasa" class="logo" />
-    <h1>Limpe seu nome em apenas 7 dias</h1>
-    <p>Por apenas R$ 119,90</p>
+    <h1>Limpe seu nome em 7 dias</h1>
+    <p>Oferta especial por apenas R$ 119,90</p>
   </header>
 
   <main class="main-content">
@@ -20,16 +18,20 @@
       <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00" required />
 
       <label for="fullname">Nome completo</label>
-      <input type="text" id="fullname" name="fullname" placeholder="Seu Nome Completo" required />
+      <input type="text" id="fullname" name="fullname" placeholder="Seu nome completo" required />
 
       <button type="submit" class="btn-analyze">Analisar</button>
     </form>
 
     <div id="result" class="result-card" hidden>
       <p id="result-text"></p>
-      <button id="try-again" class="btn-retry">Fazer nova consulta</button>
+      <button id="try-again" class="btn-retry">Nova consulta</button>
     </div>
   </main>
+
+  <footer class="footer">
+    <p>© 2025 Limpa Nome - Todos os direitos reservados</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>
